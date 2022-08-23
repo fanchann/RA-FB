@@ -1,0 +1,51 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.table-02 {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table-02 th,
+.table-02 td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.table-02 th {
+    background-color: #f7f7f7;
+}
+
+@media (min-width: 768px) {
+    .table-02 tbody {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+
+    .table-02 tbody tr,
+    .table-02 tbody th,
+    .table-02 tbody td {
+        display: block;
+    }
+
+    .table-02 tbody tr {
+        width: 33%;
+        text-align: left;
+    }
+
+    .table-02 tbody th,
+    .table-02 tbody td {
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+
+    .table-02 tbody td {
+        padding-left: 30px;
+    }
+}
